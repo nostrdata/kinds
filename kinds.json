@@ -35,6 +35,11 @@
       "NIP": [25]
   },
   {
+      "kind": "17",
+      "description": "Git Commit",
+      "NIP": [17]
+  },
+  {
       "kind": "40",
       "description": "Channel Creation",
       "NIP": [28]
