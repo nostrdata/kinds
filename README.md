@@ -1,0 +1,2 @@
+# kinds
+nostr kinds
