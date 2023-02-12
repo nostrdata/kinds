@@ -1,0 +1,102 @@
+[
+  {
+      "kind": "0",
+      "description": "Metadata",
+      "NIP": [1, 5]
+  },
+  {
+      "kind": "1",
+      "description": "Short Text Note",
+      "NIP": [1]
+  },
+  {
+      "kind": "2",
+      "description": "Recommend Relay",
+      "NIP": [1]
+  },
+  {
+      "kind": "3",
+      "description": "Contacts",
+      "NIP": [2]
+  },
+  {
+      "kind": "4",
+      "description": "Encrypted Direct Messages",
+      "NIP": [4]
+  },
+  {
+      "kind": "5",
+      "description": "Event Deletion",
+      "NIP": [9]
+  },
+  {
+      "kind": "7",
+      "description": "Reaction",
+      "NIP": [25]
+  },
+  {
+      "kind": "40",
+      "description": "Channel Creation",
+      "NIP": [28]
+  },
+  {
+      "kind": "41",
+      "description": "Channel Metadata",
+      "NIP": [28]
+  },
+  {
+      "kind": "42",
+      "description": "Channel Message",
+      "NIP": [28]
+  },
+  {
+      "kind": "43",
+      "description": "Channel Hide Message",
+      "NIP": [28]
+  },
+  {
+      "kind": "44",
+      "description": "Channel Mute User",
+      "NIP": [28]
+  },
+  {
+      "kind": "45-49",
+      "description": "Public Chat Reserved",
+      "NIP": [28]
+  },
+  {
+      "kind": 1984,
+      "description": "Reporting",
+      "NIP": [56]
+  },
+  {
+      "kind": 10002,
+      "description": "Relay List Metadata",
+      "NIP": [65]
+  },
+  {
+      "kind": 22242,
+      "description": "Client Authentication",
+      "NIP": [42]
+  },
+  {
+      "kind": "1000-9999",
+      "description": "Regular Events",
+      "NIP": [16]
+  },
+  {
+      "kind": "10000-19999",
+      "description": "Replaceable Events",
+      "NIP": [16]
+  },
+  {
+      "kind": "20000-29999",
+      "description": "Ephemeral Events",
+      "NIP": [16]
+  },
+  {
+      "kind": "30000-39999",
+      "description": "Parameterized Replaceable Events",
+      "NIP": [33]
+  }
+]
