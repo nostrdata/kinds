@@ -75,6 +75,16 @@
       "NIP": [56]
   },
   {
+      "kind": 9374,
+      "description": "Lightning Zap Request",
+      "NIP": [57]
+  },
+  {
+      "kind": 9375,
+      "description": "Lightning Zap Invoice Receipts",
+      "NIP": [57]
+  },
+  {
       "kind": 10002,
       "description": "Relay List Metadata",
       "NIP": [65]
