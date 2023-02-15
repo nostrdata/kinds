@@ -12,142 +12,13 @@
       href="css/tailwind.css"
     />
 
-    <script type="application/json" id="data">
-      [
-        {
-          "kind": "0",
-          "description": "Metadata",
-          "NIP": [1, 5]
-        },
-        {
-          "kind": "1",
-          "description": "Short Text Note",
-          "NIP": [1]
-        },
-        {
-          "kind": "2",
-          "description": "Recommend Relay",
-          "NIP": [1]
-        },
-        {
-          "kind": "3",
-          "description": "Contacts",
-          "NIP": [2]
-        },
-        {
-          "kind": "4",
-          "description": "Encrypted Direct Messages",
-          "NIP": [4]
-        },
-        {
-          "kind": "5",
-          "description": "Event Deletion",
-          "NIP": [9]
-        },
-        {
-          "kind": "7",
-          "description": "Reaction",
-          "NIP": [25]
-        },
-        {
-          "kind": "9",
-          "description": "Resources",
-          "NIP": [30]
-        },
-        {
-          "kind": "17",
-          "description": "Git Commit",
-          "NIP": [17]
-        },
-        {
-          "kind": "40",
-          "description": "Channel Creation",
-          "NIP": [28]
-        },
-        {
-          "kind": "41",
-          "description": "Channel Metadata",
-          "NIP": [28]
-        },
-        {
-          "kind": "42",
-          "description": "Channel Message",
-          "NIP": [28]
-        },
-        {
-          "kind": "43",
-          "description": "Channel Hide Message",
-          "NIP": [28]
-        },
-        {
-          "kind": "44",
-          "description": "Channel Mute User",
-          "NIP": [28]
-        },
-        {
-          "kind": "45-49",
-          "description": "Public Chat Reserved",
-          "NIP": [28]
-        },
-        {
-          "kind": "104",
-          "description": "Encrypted Group Chat",
-          "NIP": [38],
-          "unmerged": true
-        },
-        {
-          "kind": "140-149",
-          "description": "Encrypted Group Chat",
-          "NIP": [38],
-          "unmerged": true
-        },
-        {
-          "kind": 1984,
-          "description": "Reporting",
-          "NIP": [56]
-        },
-        {
-          "kind": 9374,
-          "description": "Lightning Zap Request",
-          "NIP": [57]
-        },
-        {
-          "kind": 9375,
-          "description": "Lightning Zap Invoice Receipts",
-          "NIP": [57]
-        },
-        {
-          "kind": 10002,
-          "description": "Relay List Metadata",
-          "NIP": [65]
-        },
-        {
-          "kind": 22242,
-          "description": "Client Authentication",
-          "NIP": [42]
-        },
-        {
-          "kind": "1000-9999",
-          "description": "Regular Events",
-          "NIP": [16]
-        },
-        {
-          "kind": "10000-19999",
-          "description": "Replaceable Events",
-          "NIP": [16]
-        },
-        {
-          "kind": "20000-29999",
-          "description": "Ephemeral Events",
-          "NIP": [16]
-        },
-        {
-          "kind": "30000-39999",
-          "description": "Parameterized Replaceable Events",
-          "NIP": [33]
-        }
-      ]
-    </script>
+    <style>
+      table tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+    </style>
+
+    <script type="application/json" id="data" src="./kinds.json"></script>
 
     <script type="module">
       import {
@@ -156,40 +27,58 @@
         Component,
         render
       } from 'https://unpkg.com/htm/preact/standalone.module.js'
-      import './js/dior.js'
 
       import Navbar from './components/Navbar.js'
 
-      console.log(di.data)
+      let script_tag = document.getElementById('data')
+      let src_value = script_tag.getAttribute('src')
+
+      console.log('src_value', src_value)
+
+      fetch(src_value)
+        .then(response => response.json())
+        .then(data => {
+          console.log('data', data)
+          var di = {}
+          di.data = data
+          render(
+            html`
+              <${Navbar} title="nostr" sub="kinds" />
+
+              <table style="text-align: center; padding: 10px;" cellpadding="2">
+                <tr>
+                  <th>kind</th>
+                  <th>NIP</th>
+                  <th>description</th>
+                </tr>
+                ${di.data.map(
+                  item => html`
+                    <tr>
+                      <td>${item.kind}</td>
+                      <td>${item.NIP.join(',')}</td>
+                      <td>${item.description}</td>
+                    </tr>
+                  `
+                )}
+              </table>
+              <br />
+              <a target="_blank" href="https://github.com/nostrdata/kinds"
+                >github</a
+              >
+            `,
+            document.body
+          )
+        })
+
+      // console.log(di.data)
 
       // components
       var Row = props => {
         return html` <div class="flex"></div> `
       }
-
-      render(
-        html`
-          <${Navbar} title="nostr" sub="kinds" />
-
-          <pre class="px-24 py-12">
-
-            ${di.data.map(
-            item => html`
-              <div class="text-gray-600">
-                ${item.kind} - NIP ${item.NIP.join(',')} - ${item.description}
-              </div>
-            `
-          )}
-
-          <br />
-            <a target="_blank" href="https://github.com/nostrdata/kinds">github</a>
-
-
-          </pre>
-        `,
-        document.body
-      )
     </script>
   </head>
-  <body style="font-family: monospace; font-size: 14px"></body>
+  <body
+    style="font-family: monospace; font-size: 12px; padding-left: 10%"
+  ></body>
 </html>
