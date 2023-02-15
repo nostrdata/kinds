@@ -65,6 +65,14 @@
         "unmerged": true
     },
     {
+        "kind": "30",
+        "description": "Chess",
+        "NIP": [
+            64
+        ],
+        "unmerged": true
+    },
+    {
         "kind": "40",
         "description": "Channel Creation",
         "NIP": [
