@@ -57,6 +57,14 @@
         ]
     },
     {
+        "kind": "12",
+        "description": "Decoy Key",
+        "NIP": [
+            24
+        ],
+        "unmerged": true
+    },
+    {
         "kind": "17",
         "description": "Git Commit",
         "NIP": [
