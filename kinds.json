@@ -70,6 +70,18 @@
       "NIP": [28]
   },
   {
+      "kind": "104",
+      "description": "Encrypted Group Chat",
+      "NIP": [38],
+      "unmerged": true
+  },
+  {
+      "kind": "140-149",
+      "description": "Encrypted Group Chat",
+      "NIP": [38],
+      "unmerged": true
+  },
+  {
       "kind": 1984,
       "description": "Reporting",
       "NIP": [56]
