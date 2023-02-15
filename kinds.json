@@ -35,6 +35,11 @@
       "NIP": [25]
   },
   {
+      "kind": "9",
+      "description": "Resources",
+      "NIP": [30]
+  },
+  {
       "kind": "17",
       "description": "Git Commit",
       "NIP": [17]
