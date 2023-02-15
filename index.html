@@ -16,6 +16,14 @@
       table tr:nth-child(odd) {
         background-color: #f2f2f2;
       }
+
+      a:link {
+        color: blue;
+      }
+      /* visited link */
+      a:visited {
+        color: blue;
+      }
     </style>
 
     <script type="application/json" id="data" src="./kinds.json"></script>
@@ -56,15 +64,29 @@
                     <tr>
                       <td>${item.kind}</td>
                       <td>${item.NIP.join(',')}</td>
-                      <td>${item.description}</td>
+                      <td>
+                        <a
+                          target="_blank"
+                          href="${item.url || 'https://nips.be/' + item.NIP[0]}"
+                          >${item.description}</a
+                        >
+                      </td>
                     </tr>
                   `
                 )}
               </table>
               <br />
+              |
               <a target="_blank" href="https://github.com/nostrdata/kinds"
-                >github</a
+                >Github</a
               >
+              |
+              <a
+                target="_blank"
+                href="https://github.com/nostrdata/kinds/edit/gh-pages/kinds.json"
+                >Add Kind</a
+              >
+              |
             `,
             document.body
           )

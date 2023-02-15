@@ -70,7 +70,8 @@
         "NIP": [
             17
         ],
-        "unmerged": true
+        "unmerged": true,
+        "url": "https://github.com/nip17/nips/blob/master/17.md"
     },
     {
         "kind": "30",
