@@ -147,14 +147,14 @@
         ]
     },
     {
-        "kind": 9374,
+        "kind": 9734,
         "description": "Lightning Zap Request",
         "NIP": [
             57
         ]
     },
     {
-        "kind": 9375,
+        "kind": 9735,
         "description": "Lightning Zap Invoice Receipts",
         "NIP": [
             57
