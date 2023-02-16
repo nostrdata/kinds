@@ -3,7 +3,7 @@ import {
   html,
   Component,
   render
-} from 'https://unpkg.com/htm/preact/standalone.module.js'
+} from '../js/standalone.module.js'
 
 const Navbar = props => {
   return html`
