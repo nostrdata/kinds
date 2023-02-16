@@ -56,14 +56,13 @@
               <table style="text-align: center; padding: 10px;" cellpadding="2">
                 <tr>
                   <th>kind</th>
-                  <th>NIP</th>
                   <th>description</th>
+                  <th>NIP</th>
                 </tr>
                 ${di.data.map(
                   item => html`
                     <tr>
-                      <td>${item.kind}</td>
-                      <td>${item.NIP.join(',')}</td>
+                      <td style="color:green"><b>${item.kind}</b></td>
                       <td>
                         <a
                           target="_blank"
@@ -71,6 +70,7 @@
                           >${item.description}</a
                         >
                       </td>
+                      <td>${item.NIP.join(',')}</td>
                     </tr>
                   `
                 )}
