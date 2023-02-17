@@ -203,6 +203,13 @@
         ]
     },
     {
+        "kind": "22242",
+        "description": "Authentication of clients to relays",
+        "NIP": [
+            42
+        ]
+    }
+    {
         "kind": "30000-39999",
         "description": "Parameterized Replaceable Events",
         "NIP": [
