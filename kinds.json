@@ -140,6 +140,13 @@
         "unmerged": true
     },
     {
+        "kind": "1000-9999",
+        "description": "Regular Events",
+        "NIP": [
+            16
+        ]
+    },
+    {
         "kind": 1984,
         "description": "Reporting",
         "NIP": [
@@ -165,13 +172,6 @@
         "description": "Lightning Zap Invoice Receipts",
         "NIP": [
             57
-        ]
-    },
-    {
-        "kind": "1000-9999",
-        "description": "Regular Events",
-        "NIP": [
-            16
         ]
     },
     {
