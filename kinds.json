@@ -43,11 +43,13 @@
         ]
     },
     {
-        "kind": "5",
+        "kind": "6",
         "description": "Repost",
         "NIP": [
             
         ],
+        "url: "https://github.com/nostr-protocol/nips/pull/86",
+        "legacy": true,
         "unmerged": true
     },
     {
