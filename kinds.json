@@ -147,6 +147,13 @@
         ]
     },
     {
+        "kind": 4326,
+        "description": "Geospatial Types",
+        "NIP": [
+            44
+        ]
+    },
+    {
         "kind": 9734,
         "description": "Lightning Zap Request",
         "NIP": [
