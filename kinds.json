@@ -82,6 +82,14 @@
         "unmerged": true
     },
     {
+        "kind": "32",
+        "description": "Reputation",
+        "NIP": [
+            32
+        ],
+        "unmerged": true
+    },
+    {
         "kind": "40",
         "description": "Channel Creation",
         "NIP": [
