@@ -209,4 +209,11 @@
             33
         ]
     }
+    {
+        "kind": "30023",
+        "description": "Long-form Content",
+        "NIP": [
+            23
+        ]
+    }
 ]
