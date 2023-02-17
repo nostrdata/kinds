@@ -207,6 +207,15 @@
         ]
     },
     {
+        "kind": 12165,
+        "description": "Coracle Mute Lists",
+        "url": "https://github.com/nostr-protocol/nips/pull/183",
+        "NIP": [
+            
+        ],
+        "unmerged": true
+    },    
+    {
         "kind": "20000-29999",
         "description": "Ephemeral Events",
         "NIP": [
