@@ -165,6 +165,24 @@
         ]
     },
     {
+        "kind": 1050,
+        "description": "nosbin Pastes",
+        "url": "https://github.com/jacany/nosbin",
+        "NIP": [
+            
+        ],
+        "unmerged": true
+    },
+    {
+        "kind": 1051,
+        "description": "nosbin Comments",
+        "url": "https://github.com/jacany/nosbin",
+        "NIP": [
+            
+        ],
+        "unmerged": true
+    },
+    {
         "kind": 1984,
         "description": "Reporting",
         "NIP": [
@@ -214,7 +232,7 @@
             
         ],
         "unmerged": true
-    },    
+    },
     {
         "kind": "20000-29999",
         "description": "Ephemeral Events",
