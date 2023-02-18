@@ -249,5 +249,13 @@
         "NIP": [
             23
         ]
+    },
+    {
+        "kind": "30303",
+        "description": "Relay Status",
+        "NIP": [
+            66
+        ],
+        "unmerged": true
     }
 ]
