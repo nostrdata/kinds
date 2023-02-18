@@ -230,6 +230,13 @@
         ]
     },
     {
+        "kind": "24133",
+        "description": "Nostr Connect",
+        "NIP": [
+            46
+        ]
+    },
+    {
         "kind": "30000-39999",
         "description": "Parameterized Replaceable Events",
         "NIP": [
