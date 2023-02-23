@@ -60,6 +60,13 @@
         ]
     },
     {
+        "kind": "8",
+        "description": "Badge Award",
+        "NIP": [
+            58
+        ]
+    },
+    {
         "kind": "9",
         "description": "Resources",
         "NIP": [
@@ -259,6 +266,13 @@
         "description": "Parameterized Replaceable Events",
         "NIP": [
             33
+        ]
+    },
+    {
+        "kind": "30008",
+        "description": "Profile Badge",
+        "NIP": [
+            58
         ]
     },
     {
