@@ -276,6 +276,13 @@
         ]
     },
     {
+        "kind": "30009",
+        "description": "Badge Definition",
+        "NIP": [
+            58
+        ]
+    },
+    {
         "kind": "30023",
         "description": "Long-form Content",
         "NIP": [
