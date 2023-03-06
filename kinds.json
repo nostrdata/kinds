@@ -290,6 +290,13 @@
         ]
     },
     {
+        "kind": "30078",
+        "description": "Arbitrary custom app data",
+        "NIP": [
+            78
+        ]
+    },    
+    {
         "kind": "30303",
         "description": "Relay Status",
         "NIP": [
