@@ -103,7 +103,8 @@
         "description": "Professional résumé",
         "NIP": [
         ],
-        "unmerged": true
+        "unmerged": true,
+        "url": "https://github.com/PlebeianTech/plebeian-market/blob/master/README.md#skills-market"
     },
     {
         "kind": "32",
