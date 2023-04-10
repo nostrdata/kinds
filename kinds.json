@@ -311,5 +311,13 @@
             66
         ],
         "unmerged": true
+    },
+    {
+        "kind": "33777",
+        "description": "Listr Lists",
+        "url": "https://github.com/sepehr-safari/listr",
+        "NIP": [
+            33
+        ]
     }
 ]
