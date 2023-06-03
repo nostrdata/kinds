@@ -249,6 +249,14 @@
         "unmerged": true
     },
     {
+        "kind": 13194,
+        "description": "Wallet Info",
+        "url": "https://github.com/nostr-protocol/nips/blob/master/47.md",
+        "NIP": [
+            47
+        ]
+    },
+    {
         "kind": "20000-29999",
         "description": "Ephemeral Events",
         "NIP": [
