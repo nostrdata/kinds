@@ -46,11 +46,10 @@
         "kind": "6",
         "description": "Repost",
         "NIP": [
-            
+            18
         ],
-        "url": "https://github.com/nostr-protocol/nips/pull/86",
         "legacy": true,
-        "unmerged": true
+        "url": "https://github.com/nostr-protocol/nips/blob/master/18.md"
     },
     {
         "kind": "7",
@@ -184,7 +183,7 @@
         "description": "nosbin Pastes",
         "url": "https://github.com/jacany/nosbin",
         "NIP": [
-            
+
         ],
         "unmerged": true
     },
@@ -193,7 +192,7 @@
         "description": "nosbin Comments",
         "url": "https://github.com/jacany/nosbin",
         "NIP": [
-            
+
         ],
         "unmerged": true
     },
@@ -244,7 +243,7 @@
         "description": "Coracle Mute Lists",
         "url": "https://github.com/nostr-protocol/nips/pull/183",
         "NIP": [
-            
+
         ],
         "unmerged": true
     },
@@ -311,7 +310,7 @@
         "NIP": [
             78
         ]
-    },    
+    },
     {
         "kind": "30303",
         "description": "Relay Status",
