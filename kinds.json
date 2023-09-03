@@ -232,6 +232,20 @@
         ]
     },
     {
+        "kind": 10000,
+        "description": "Mute List",
+        "NIP": [
+            51
+        ]
+    },
+    {
+        "kind": 10001,
+        "description": "Pin List",
+        "NIP": [
+            51
+        ]
+    },
+    {
         "kind": 10002,
         "description": "Relay List Metadata",
         "NIP": [
