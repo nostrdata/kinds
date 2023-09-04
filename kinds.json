@@ -284,10 +284,17 @@
         ]
     },
     {
-        "kind": "24133",
-        "description": "Nostr Connect",
+        "kind": "22242",
+        "description": "Client Authentication",
         "NIP": [
-            46
+            42
+        ]
+    },
+    {
+        "kind": "27235",
+        "description": "HTTP Auth",
+        "NIP": [
+            98
         ]
     },
     {
